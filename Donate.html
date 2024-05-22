@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Church Name</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="about-body">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Church Name</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Event.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-2 donate-btn" href="donate.html">Donate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-3 btn donate-btn" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+<!-- Donate section -->
+
+<div class="Donate-container">
+    <h1>Make a Donation</h1>
+    <form id="donation-form">
+      <div class="form-group">
+        <label for="amount">Donation Amount ($)</label>
+        <input type="number" id="amount" name="amount" min="1" step="0.01" required>
+      </div>
+      <div class="form-group">
+        <label for="type">Donation Type</label>
+        <select id="type" name="type">
+          <option value="tithe">Tithe</option>
+          <option value="offering">Offering</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="reason">Reason for Giving</label>
+        <textarea id="reason" name="reason" rows="4"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="prayer">Prayer Point</label>
+        <textarea id="prayer" name="prayer" rows="4"></textarea>
+      </div>
+      <button type="submit">Donate</button>
+    </form>
+    <div id="payment-result"></div>
+  </div>
+
+
+    <!-- Footer Section -->
+
+    <div class="container mt-5" >
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="About.html" class="nav-link p-0 text-body-secondary">About</a></li>
+              <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-body-secondary">Services</a></li>
+              <li class="nav-item mb-2"><a href="Event.html" class="nav-link p-0 text-body-secondary">Event</a></li>
+              <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-body-secondary">Contact</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="registration.html" class="nav-link p-0 text-body-secondary">Registration</a></li>
+              <li class="nav-item mb-2"><a href="login.html" class="nav-link p-0 text-body-secondary">Login</a></li>
+              <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="Testimony.html" class="nav-link p-0 text-body-secondary">Testimony</a></li>
+            </ul>
+          </div>
+    
+      
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2024 Ikhu Presido, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <a href="https://www.facebook.com/YourOrganization" target="_blank" class="me-4"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/YourOrganization" target="_blank" class="me-4"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/YourOrganization" target="_blank" class="me-4"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@YourOrganization" target="_blank"><i class="fab fa-tiktok"></i></a>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="Donate.js"></script>
+

@@ -1,0 +1,767 @@
+/* Custom Styles */
+.navbar {
+    background-color: #343a40 !important;
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #fff !important;
+  }
+  .donate-btn {
+    color: #ffc107 !important; /* Goldish color */
+    border: 1px solid #76ABAE !important; /* Goldish color for border */
+    border-radius: 0 !important; /* Remove border radius */
+    transition: none !important; /* Remove hover effect */
+    border-radius: 5px !important;
+  
+  }
+  
+  .donate-btn:hover {
+    color: #76ABAE !important; /* Maintain goldish color on hover */
+    background-color: transparent !important; /* Remove background color on hover */
+  }
+  
+
+
+  .hero-section {
+    background-image: url('../Images/holy-bible-with-rays-light-coming-out-ai-generative.jpg');/* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #76ABAE;
+    
+  }
+  
+  .hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-primary {
+    background-color: #6c757d;
+    border-color: #76ABAE;
+  }
+  
+  .btn-primary:hover {
+    background-color: #495057;
+    border-color: #495057;
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  /* services index page */
+  .services{
+    /* background-color:  #12c2e9;  */
+    background-color: #76ABAE;
+   }
+  
+  .card {
+    margin-bottom: 2rem;
+  }
+
+  .service-card {
+    height: 400px; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+  .service-card-text-container {
+    margin-top: 10px;
+  }
+  .service-card-title, .service-card-text {
+    color: #fff; /* Adjust the text color for better visibility on images */
+  }
+
+  
+  
+  /* footer index page */
+  .footer-video {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  .footer-video h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-video iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+  }
+  
+
+  /* ABOUT SESSION */
+
+  /* .about-body{
+    background-color: #cfcaca;
+  } */
+
+
+  .section-heading {
+    font-size: 2.5rem; /* Larger heading */
+}
+.about-image {
+    max-width: 100%; /* Ensure the image scales within its column */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+.about-heading {
+    color: #76ABAE;
+    font-size: 1.5rem; /* Increased font size */
+}
+.about-text {
+    color: #6c757d;
+    font-size: 1.2rem; /* Increased font size */
+}
+.py-5 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important; /* Adjusted padding */ 
+    
+}
+
+
+
+
+
+ 
+
+  #About-container {
+    margin-top: 50px;
+     /* Adjust as needed */
+  }
+
+  .passion-img{
+    width: 30%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+ 
+  .text-center{
+   padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .About-main-text{
+   background-color: #cfcaca;
+   margin-top: 20%;
+   
+  }
+
+  /* meet our pastors section */
+
+  .pastor-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .pastor-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .pastor-name {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .pastor-position {
+    font-style: italic;
+  }
+
+  /* Event session */
+
+  .hero-section {
+    position: relative;
+    background-image: url('../Images/holy-bible-with-rays-light-coming-out-ai-generative.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #EEF7FF;
+    text-align: center;
+    z-index: 1;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for transparency */
+    z-index: -1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+
+  .hero-section {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #EEF7FF;
+    text-align: center; 
+  }
+
+  .hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .hero-section p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .event-details-section{
+    padding-top: 10%;
+  }
+  .event-details-section h2 {
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  .event-details-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  .event-details-section ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  .event-details-section ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .event-highlights li {
+    margin-bottom: 10px;
+  }
+  .registration-form {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .registration-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .registration-form label {
+    font-weight: bold;
+  }
+  .registration-form input[type="text"],
+  .registration-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  .registration-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #76ABAE;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+  /* contact page */
+
+  #map {
+    margin-top: 15%;
+  }
+  .contact-details {
+    margin-bottom: 30px;
+    margin-top: 15%;
+  }
+  .contact-form {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .contact-form h2 {
+    margin-bottom: 20px;
+  }
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  .contact-form label {
+    font-weight: bold;
+  }
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  .contact-form textarea {
+    height: 150px;
+  }
+  .contact-form button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #76ABAE;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+
+  /* Testimony session */
+  /* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+
+/* Testimony Submission Form Section Styles */
+.testimony-form-section {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimony-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testimony-input,
+.testimony-textarea,
+.testimony-btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 2px solid #76ABAE;
+  border-radius: 5px;
+}
+
+.testimony-btn {
+  background-color: #76ABAE;
+  color: #fff;
+  cursor: pointer;
+}
+
+.testimony-btn:hover {
+  background-color: #76ABAE;
+}
+
+/* Testimonies Section Styles */
+.testimonies-section {
+  padding: 50px 0;
+}
+
+.testimony {
+  margin-bottom: 30px;
+}
+
+.testimony h3 {
+  font-size: 20px;
+  color: #76ABAE;
+}
+
+.testimony p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Testimony Read More Styles */
+
+    .testimony-content {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+    .testimony-image {
+      object-fit: cover;
+      height: 300px;
+    }
+
+
+
+
+
+
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #76ABAE;
+  color: #fff;
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #76ABAE;
+}
+
+.testimony {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Increase border-radius for rounded corners */
+  overflow: hidden; /* Hide overflow content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.testimony .testimony-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.testimony h3 {
+  color: #76ABAE;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.testimony p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 20px;
+  background-color: #76ABAE;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.testimony-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 50px;
+}
+.testimony-image {
+  width: 250px; /* Set a fixed width */
+  height: 250px; /* Set a fixed height */
+  object-fit: cover;
+  border-radius: 10px; /* Make it square */
+  margin-right: 20px; /* Add some spacing between the image and content */
+}
+.testimony-content h3 {
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
+.testimony-content p {
+  font-size: 1rem; /* Adjust font size as needed */
+}
+.read-more {
+  color: #007bff;
+  text-decoration: none;
+}
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.testimony-container {
+  text-align: center;
+}
+
+.carousel-inner {
+  align-items: center;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1f2021; /* Adjust color as needed */
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+.read-more:hover {
+ 
+}
+
+
+.read-more:hover {
+  background-color: #76ABAE;
+}
+
+/* payment gateway */
+
+
+.Donate-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #76ABAE;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #76ABAE;
+}
+
+#payment-result {
+  margin-top: 20px;
+}
+
+
+/* Login Page */
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.login-title {
+  margin-bottom: 20px;
+}
+
+.login-form {
+  margin-bottom: 20px;
+}
+
+.login-label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.login-input,
+.login-button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.register-link {
+  text-align: center;
+}
+
+.register-link a {
+  color: #76ABAE;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+
+/* Registration Page */
+
+.registration-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.registration-title {
+  margin-bottom: 20px;
+}
+
+.registration-form {
+  margin-bottom: 20px;
+}
+
+.registration-label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.registration-input,
+.registration-select,
+.registration-button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.registration-button {
+  background-color: #76ABAE;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.registration-button:hover {
+  background-color: #76ABAE;
+}
+
+/* Animations */
+
+/* Define keyframes for animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to elements */
+.hero-section h1,
+.hero-section p,
+.hero-section .btn {
+  animation: fadeInUp 1s ease forwards;
+}
+
+/* Adjust delay for subsequent elements */
+.hero-section p {
+  animation-delay: 0.5s;
+}
+
+.hero-section .btn {
+  animation-delay: 1s;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+
+/* FAQ PAGE */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.faq-header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.faq-header h1 {
+  margin: 0;
+}
+
+.faq-header p {
+  margin: 0.5rem 0 0;
+}
+
+.faq-main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+
